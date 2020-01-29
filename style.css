@@ -1,0 +1,101 @@
+body 
+{
+      background: linear-gradient(to bottom, #336699 0%, #000099 100%);
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+}
+.swiper-container 
+{
+      width: 100%;
+      padding-top: 50px;
+      padding-bottom: 50px;
+}
+.swiper-slide 
+{
+      background-position: center;
+      background-size: cover;
+      width: 300px;
+      height: 300px;
+      background: #fff;
+
+}
+.search
+{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.progress
+{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.handshake
+{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.money
+{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.gift
+{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #BCC6CC;
+}
+
+
+.swiper-slide:hover .overlay
+{
+
+opacity: 1;
+
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  height: 250px;
+  width: 250px;
+}
+.container
+{
+ color: #ffffff;
+ font-family: 'Amaranth';
+ font-size: 200px;
+ text-align: center;
+padding-top: 50px;
+}
+
+
+
+
+
+
